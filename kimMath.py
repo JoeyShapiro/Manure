@@ -9,6 +9,8 @@ import numpy as np
 filename = sys.argv[1] # get the LOCAL filename
 file = open(filename) # open with defaults, 'r'
 
+print("https://github.com/JoeyShapiro/Manure/blob/master/kimMath.py") # sellout :P
+
 data_set = [] # dataset to be used
 n = 0 # number of items
 z = 1.96 # z-score of that interval, im not doing that math

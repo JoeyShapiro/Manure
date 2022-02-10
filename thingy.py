@@ -15,6 +15,8 @@ start_line = args[2] # 53, ..., n where to start, can change based on stuff in f
 marker = args[3] # a place in line that is not changed from the line needed, based on spaced and stuff // "Kbits/sec"
 infile = open(filename) # file to get data from
 
+print("https://github.com/JoeyShapiro/Manure/blob/master/thingy.py") # sellout :P
+
 offset = int(args[4]) # how far the market is from the item needed, 1 = go back 1 // 1
 outfile = open(filename.split(".")[0]+"_formated.rand_ext.png.pdf.txt", 'w') # :P
 outfile_dilim = '\n'
